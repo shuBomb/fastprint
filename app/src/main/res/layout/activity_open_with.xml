@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_open_with"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FilePicker.OpenWithActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorActionBar">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:onClick="GoBack"
+            android:padding="@dimen/_5ssp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tvTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Choose From DropBox"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Path"
+            android:layout_centerInParent="true"/>
+
+
+        <Button
+
+            android:id="@+id/generate_intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Generating Openwith Intent"/>
+
+        <Button
+
+            android:id="@+id/is_installed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Is Installed"/>
+
+        <Button
+
+            android:id="@+id/is_linked_any_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Is Linked Any"/>
+
+        <Button
+
+            android:id="@+id/is_linked_spec_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Is Linked Spec"/>
+
+        <Button
+
+            android:id="@+id/preview_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Preview"/>
+
+        <Button
+
+            android:id="@+id/upgrade_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Upgrade"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

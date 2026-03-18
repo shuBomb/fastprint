@@ -1,0 +1,133 @@
+{
+  "project_info": {
+    "project_number": "232956696023",
+    "firebase_url": "https://fast-print-a326f.firebaseio.com",
+    "project_id": "fast-print-a326f",
+    "storage_bucket": "fast-print-a326f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232956696023:android:a55e13d0738a843c47e792",
+        "android_client_info": {
+          "package_name": "com.app.fastprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232956696023-2aipdrmfk7tv3v9j5ks69jg0ffno3iud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fastprint",
+            "certificate_hash": "fbe5bebc8448355cfc101571e545acb3cdc7ad73"
+          }
+        },
+        {
+          "client_id": "232956696023-65ood75d5gp4huhdbjklvak0k7l897r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fastprint",
+            "certificate_hash": "1a7cda5e86a358c6e9d8f9b488da62381aa7b900"
+          }
+        },
+        {
+          "client_id": "232956696023-69vl8qmvn1t6ljjcs2cq1pbbtt34vd3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fastprint",
+            "certificate_hash": "55a48e1a17a067c7fb22efb3639558eac0fc313f"
+          }
+        },
+        {
+          "client_id": "232956696023-dcbv3rdr5npoh2rtebs0nnh97lk4aq12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fastprint",
+            "certificate_hash": "8910add65273db407cbecc89c498ec1e1dcc03a3"
+          }
+        },
+        {
+          "client_id": "232956696023-s4h63srqlt06mqguak75uq0qe279cj1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fastprint",
+            "certificate_hash": "589de3692162dfd1c4681153100d9e3f4d814576"
+          }
+        },
+        {
+          "client_id": "232956696023-lc32n2rtq7leb76flmrdjsuqa4tlfslm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCCSDdBNVckBBF2e-Dc0AhmxmprK7qarY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232956696023-8k64hkvlon08trtss01tfnupj47lor0p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "232956696023-3vn16pq085d6v4p5vkk2ddbnsk6c59gm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mobapp.at.FastPrint",
+                "app_store_id": "872526993"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232956696023:android:2d8397c158d2d80b47e792",
+        "android_client_info": {
+          "package_name": "com.fastprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232956696023-9s8cumfa0ah53m9j4drql385i7jnrtrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fastprint",
+            "certificate_hash": "1a7cda5e86a358c6e9d8f9b488da62381aa7b900"
+          }
+        },
+        {
+          "client_id": "232956696023-lc32n2rtq7leb76flmrdjsuqa4tlfslm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCCSDdBNVckBBF2e-Dc0AhmxmprK7qarY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232956696023-8k64hkvlon08trtss01tfnupj47lor0p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "232956696023-3vn16pq085d6v4p5vkk2ddbnsk6c59gm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mobapp.at.FastPrint",
+                "app_store_id": "872526993"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

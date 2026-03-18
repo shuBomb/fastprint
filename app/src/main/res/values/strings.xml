@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Fast Print</string>
+    <string name="back_agin">Please click BACK again to exit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signature_here">Signature here</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="permission">Please first turn on permission</string>
+
+    <string name="title_activity_openwith">Files Open With</string>
+    <string name="title_activity_files">Files</string>
+    <string name="connected_with_wifi">Connected with wifi</string>
+    <string name="connected_with_mobile">Connected with mobile network</string>
+    <string name="connected_with_ethernet">Connected with ethernet</string>
+    <string name="you_are_offline">Yout are offline.Please check your internet connection.</string>
+    <string name="facebook_app_id">401664831005474</string>
+    <string name="fb_login_protocol_scheme">fb401664831005474</string>
+    <string name="direct_bank_transfer_info">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</string>
+    <string name="paypal_info">Pay via PayPal; you can pay with your credit card if you don&#8217;t have a PayPal account.</string>
+    <string name="direct_bank_transfer">Direct bank transfer</string>
+    <string name="paypal">Paypal</string>
+    <string name="hyperPay">HyperPay</string>
+
+    <string name="source_google_drive">Google Drive</string>
+    <string name="start_drive">Start Google Drive</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="status_logged_out">Logged Out</string>
+    <string name="status_logged_in">Logged In</string>
+    <string name="status_user_cancelled">User Cancelled</string>
+    <string name="status_error">We found a problem: %1$s</string>
+    <string name="not_open_file">Could not open file</string>
+    <string name="dropbox_app_key">1z1lzv2bwpx9q50</string>
+
+
+
+    <string name="checkout_ui_callback_scheme">checkoutui</string>
+    <string name="payment_button_callback_scheme">paymentbutton</string>
+    <string name="custom_ui_callback_scheme">customui</string>
+
+    <string name="checkout_ui_title">Ready-to-Use UI</string>
+    <string name="payment_button_title">Payment Button</string>
+    <string name="custom_ui_title">SDK &amp; Your Own UI</string>
+    <string name="checkout_immediately_with">Checkout immediately with</string>
+    <string name="sdk_version_number">mobile sdk v%s</string>
+    <string name="visa">VISA</string>
+
+    <string name="card_holder_hint">Card Holder</string>
+    <string name="card_number_hint">Card Number</string>
+    <string name="card_expiry_month_hint">MM</string>
+    <string name="card_expiry_year_hint">YY</string>
+    <string name="card_cvv_hint">CVV</string>
+
+    <string name="date_delimiter">/</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_proceed_to_checkout">PROCEED TO CHECKOUT</string>
+    <string name="button_pay_now">PAY NOW</string>
+
+    <string name="message_successful_payment">The payment was successful</string>
+    <string name="message_unsuccessful_payment">"The payment was unsuccessful"</string>
+    <string name="message_payment_confirmation">Payment of %1$s %2$s will be executed</string>
+
+    <string name="progress_message_please_wait">Please wait…</string>
+    <string name="progress_message_checkout_id">Getting the checkout id…</string>
+    <string name="progress_message_checkout_info">Getting the checkout info…</string>
+    <string name="progress_message_payment_status">Getting the payment status…</string>
+    <string name="progress_message_processing_payment">Processing payment…</string>
+
+    <string name="error_message">An error occurred</string>
+    <string name="error_empty_fields">The fields must not be empty</string>
+    <string name="credit_card">Credit Card</string>
+
+    <string name="notification_channel_default">Notifications</string>
+    <string name="notification_channel_silent">Updates</string>
+    <string name="notification_channel_description_default">Latest Updates</string>
+
+</resources>

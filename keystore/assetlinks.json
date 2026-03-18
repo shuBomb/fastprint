@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.app.fastprint",
+    "sha256_cert_fingerprints":
+    ["D6:BA:95:53:BD:D7:E4:00:BE:72:C6:60:4F:88:A0:EF:5C:1C:6E:C9:09:71:9F:D9:97:A8:D8:B8:BD:52:B6:42"]
+  }
+}]

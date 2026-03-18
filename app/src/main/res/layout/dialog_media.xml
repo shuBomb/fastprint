@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvChoose"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_15sdp"
+            android:text="Choose"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_16ssp" />
+
+        <TextView
+            android:id="@+id/tvMedia"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_below="@+id/tvChoose"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Upload Media"
+            android:textColor="@android:color/white"
+            android:background="@color/cardview_dark_background"
+            android:textSize="@dimen/_14ssp" />
+
+
+
+        <TextView
+            android:id="@+id/tvUploadFile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/tvMedia"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Upload file"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="@android:color/white"
+            android:background="@color/cardview_dark_background"
+            android:textSize="@dimen/_14ssp" />
+        <TextView
+            android:id="@+id/tvUploadFileDropBox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/tvUploadFile"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Upload From DropBox"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="@android:color/white"
+            android:background="@color/cardview_dark_background"
+            android:textSize="@dimen/_14ssp" />
+        <TextView
+            android:id="@+id/tvUploadFileDrive"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_below="@+id/tvUploadFileDropBox"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Upload From Google Drive"
+
+            android:textColor="@android:color/white"
+            android:background="@color/cardview_dark_background"
+            android:textSize="@dimen/_14ssp" />
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/tvUploadFileDrive"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:padding="@dimen/_10sdp"
+            android:gravity="end"
+
+            android:text="CANCEL"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/_14ssp" />
+    </RelativeLayout>
+</RelativeLayout>

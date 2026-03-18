@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FilePicker.FilePickerDropBoxActivity">
+    <RelativeLayout
+        android:id="@+id/layoutActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorActionBar">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:onClick="GoBack"
+            android:padding="@dimen/_5ssp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tvTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Choose From DropBox"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+<!--    <TextView-->
+<!--        android:id="@+id/tvSignIn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_38sdp"-->
+
+<!--        android:layout_marginLeft="@dimen/_25ssp"-->
+<!--        android:layout_marginTop="@dimen/_30sdp"-->
+<!--        android:layout_marginRight="@dimen/_25ssp"-->
+<!--        android:background="@drawable/bg_buynow"-->
+<!--        android:gravity="center"-->
+<!--        android:text="SIGN IN"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="@dimen/_12ssp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/tvOpenDrive"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_38sdp"-->
+<!--        android:layout_below="@+id/layoutActionBar"-->
+<!--        android:layout_marginLeft="@dimen/_25ssp"-->
+<!--        android:layout_marginTop="@dimen/_30sdp"-->
+<!--        android:layout_marginRight="@dimen/_25ssp"-->
+<!--        android:background="@drawable/bg_buynow"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Open"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="@dimen/_12ssp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/tvOpenDrive2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_38sdp"-->
+<!--        android:layout_below="@+id/tvOpenDrive"-->
+<!--        android:layout_marginLeft="@dimen/_25ssp"-->
+<!--        android:layout_marginTop="@dimen/_30sdp"-->
+<!--        android:layout_marginRight="@dimen/_25ssp"-->
+<!--        android:background="@drawable/bg_buynow"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Open"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="@dimen/_12ssp" />-->
+</RelativeLayout>
