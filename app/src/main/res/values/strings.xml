@@ -14,8 +14,9 @@
     <string name="connected_with_mobile">Connected with mobile network</string>
     <string name="connected_with_ethernet">Connected with ethernet</string>
     <string name="you_are_offline">Yout are offline.Please check your internet connection.</string>
-    <string name="facebook_app_id">401664831005474</string>
-    <string name="fb_login_protocol_scheme">fb401664831005474</string>
+    <string name="facebook_app_id">1397343902426447</string>
+    <string name="fb_login_protocol_scheme">fb1397343902426447</string>
+    <string name="facebook_client_token">7ad143b892230a86f16d2bfff327f7c1</string>
     <string name="direct_bank_transfer_info">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</string>
     <string name="paypal_info">Pay via PayPal; you can pay with your credit card if you don&#8217;t have a PayPal account.</string>
     <string name="direct_bank_transfer">Direct bank transfer</string>

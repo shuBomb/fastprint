@@ -186,7 +186,7 @@ public class LoginActivity extends BaseClass implements ILogin {
                 .requestEmail()
                 .build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
-        //  printKeyHash(this);
+          printKeyHash(this);
         intent_type = getIntent().getStringExtra("intent_type");
         device_token = AppControler.getInstance(this).getString(AppControler.Key.DEVICE_TOKEN);
         ipLogin = new PLogin(this);
@@ -202,7 +202,7 @@ public class LoginActivity extends BaseClass implements ILogin {
             return;
         }
         getLocations();
-        //faceBookLogin();
+        faceBookLogin();
         generateToken();
     }
 
@@ -218,7 +218,7 @@ public class LoginActivity extends BaseClass implements ILogin {
                             @Override
                             public void onCompleted(JSONObject object, GraphResponse response) {
 
-
+                                Log.d("FB_DATA", object.toString());
                                 try {
                                     socail_email = object.getString("email");
                                 } catch (JSONException e) {
@@ -259,6 +259,9 @@ public class LoginActivity extends BaseClass implements ILogin {
 
                                 }
 
+                                if (socail_email.isEmpty()) {
+                                    socail_email = socail_id + "@facebook.com";
+                                }
                                 Log.d("data++", "data++" + socail_email);
                                 Log.d("data++", "data++" + socail_id);
                                 Log.d("data++", "data++" + socail_image);
